@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asmi Prasad - Resume</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.5;
+      background: #f0f0f0;
+    }
+    .page {
+      background: white;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 20px auto;
+      padding: 20mm;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+    }
+    h1, h2, h3 {
+      color: #111;
+      margin-bottom: 5px;
+    }
+    h1 {
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    .contact-info {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .section {
+      margin-bottom: 18px;
+      page-break-inside: avoid;
+    }
+    .section-title {
+      font-weight: bold;
+      font-size: 18px;
+      color: #0056b3;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 5px 0;
+    }
+    ul li {
+      margin-bottom: 5px;
+    }
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .skill {
+      background-color: #f4f4f4;
+      padding: 8px;
+      border-radius: 4px;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color: #333;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 11px;
+    }
+    a {
+      color: #0056b3;
+      text-decoration: none;
+      word-break: break-word;
+    }
+    .two-column {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .column {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    @media (max-width: 768px) {
+      .page {
+        width: 90%;
+        min-height: auto;
+        padding: 15px;
+        margin: 10px auto;
+        box-shadow: none;
+        background: white;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      .section-title {
+        font-size: 16px;
+      }
+    }
+
+    @page {
+      size: A4;
+      margin: 20mm;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+      .page {
+        margin: 0;
+        box-shadow: none;
+        width: auto;
+        min-height: auto;
+        padding: 0;
+      }
+      .section {
+        page-break-inside: avoid;
+      }
+      .skills {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .contact-info, .section-title, h1 {
+        page-break-after: avoid;
+      }
+      a {
+        color: black;
+        text-decoration: underline;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+  <h1>Asmi Prasad</h1>
+  <div class="contact-info">
+    +91 91108-39952 | prasadasmi619@gmail.com<br>
+    <a href="https://github.com/ASMI1-glitch">GitHub</a> | 
+    <a href="https://www.linkedin.com/in/asmi-prasad-093a622a9">LinkedIn</a>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Professional Summary</div>
+    Full-fledged certified Full Stack Developer with hands-on experience in building scalable web and mobile solutions using MERN Stack, Next.js, Angular, Ionic, and Capacitor technologies. Successfully completed internships at Crio.Do, Infusion Pvt Ltd, and SarvM.ai, gaining diverse project exposure and technical expertise. Built 30+ industry-grade projects and solved 250+ DSA problems. Currently working as a Full Stack Developer Intern at VaishaliTech.
+  </div>
+
+  <div class="section">
+    <div class="section-title">Experience</div>
+    <ul>
+      <li><strong>VaishaliTech</strong> - Full Stack Developer Intern (MERN Stack) | Present</li>
+      <li><strong>Crio.Do</strong> - Full Stack Developer Intern (Certified Fellowship Program)</li>
+      <li><strong>Infusion Pvt Ltd</strong> - Full Stack Developer Intern</li>
+      <li><strong>SarvM.ai</strong> - Full Stack Developer Intern</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Skills</div>
+    <div class="skills">
+      <div class="skill">React.js</div>
+      <div class="skill">Redux</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Tailwind CSS</div>
+      <div class="skill">Bootstrap</div>
+      <div class="skill">Material UI</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Express.js</div>
+      <div class="skill">MongoDB</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Ionic</div>
+      <div class="skill">Capacitor</div>
+      <div class="skill">Git</div>
+      <div class="skill">GitHub Actions</div>
+      <div class="skill">Postman</div>
+      <div class="skill">VS Code</div>
+      <div class="skill">TypeScript</div>
+      <div class="skill">Linux</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+    <ul>
+      <li><strong>B.E. Computer Science</strong> - Rajiv Gandhi Institute of Technology, Bangalore (VTU) | 8.55 CGPA (2021)</li>
+      <li><strong>Senior Secondary (12th)</strong> - Kendriya Vidyalaya AFS Naliya Bhuj Gujarat | 9.0 GPA (2017)</li>
+      <li><strong>Secondary (10th)</strong> - Kendriya Vidyalaya AFS Naliya Bhuj Gujarat | 9.2 GPA (2015)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Certifications</div>
+    <ul>
+      <li>Full Stack Software Developer - Crio.Do</li>
+      <li>JavaScript Algorithms and Data Structures - Crio.Do</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Projects</div>
+    <ul>
+      <li><strong>QKart</strong> - E-Commerce Web App (React.js, Node.js, Express.js, MongoDB)</li>
+      <li><strong>XPense Tracker</strong> - Finance Application (React.js, Redux Toolkit, Node.js, MongoDB)</li>
+      <li><strong>QTify</strong> - Music Browser App (React.js, Material UI, Swiper.js)</li>
+      <li><strong>QTrip Dynamic and Static</strong> - Travel Website (HTML, CSS, JavaScript, Bootstrap)</li>
+      <li><strong>Dice Raja</strong> - Gaming App (React.js, Node.js, MongoDB)</li>
+      <li><strong>GoBet</strong> - IPL Betting App (React.js, Node.js, MongoDB)</li>
+      <li><strong>XBoard</strong> - News Feed Website (HTML, CSS, Bootstrap, JavaScript)</li>
+      <li><strong>XCruise</strong> - Cruise Booking Website (HTML, CSS)</li>
+    </ul>
+    Demo Links: <a href="https://github.com/ASMI1-glitch">GitHub (98+ Repositories)</a>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Achievements</div>
+    <ul>
+      <li>Solved 250+ DSA problems enhancing algorithmic thinking.</li>
+      <li>Built and deployed 30+ professional projects with clean architecture and best practices.</li>
+      <li>Crio Fellowship Program in Software Development (React + Node.js Track).</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Soft Skills</div>
+    Problem Solving | Collaboration & Teamwork | Adaptability | Critical Thinking | Attention to Detail
+  </div>
+
+  <div class="section">
+    <div class="section-title">Additional Information</div>
+    Preferred Location: Bengaluru<br>
+    Current Status: Fresher, actively seeking Full-Stack and Mobile Developer roles.
+  </div>
+</div>
+
+</body>
+</html>
